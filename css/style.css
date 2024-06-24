@@ -1139,7 +1139,7 @@ ol {
     position: absolute;
     left: 0;
     top: -12px;
-    background-image: url(. img/testimonial/quote.png);
+    background-image: url(/img/testimonial/quote.png);
     background-repeat: no-repeat;
     content: '';
     height: 26px;
@@ -1158,6 +1158,7 @@ ol {
 }
 
 .testimonial-item .ti-author .ta-pic img {
+    object-fit: cover;
     height: 90px;
     width: 90px;
     border-radius: 50%;
