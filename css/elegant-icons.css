@@ -455,10 +455,10 @@ you can use the generic selector below, but it's slower:
     content: '\33';
 }
 .arrow_carrot-left:before {
-    content: '\34';
+    content: '\003C';
 }
 .arrow_carrot-right:before {
-    content: '\35';
+    content: '\003E';
 }
 .arrow_carrot-2up:before {
     content: '\36';
