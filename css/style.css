@@ -1108,6 +1108,19 @@ ol {
     margin-bottom: 15px;
 }
 
+@media (max-width: 540px) {
+    .cta-text h2 {
+        font-size: 24px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+}
+
 .cta-text p {
     font-size: 17px;
     line-height: 30px;
@@ -2488,6 +2501,16 @@ ol {
 }
 
 /* Medium Device = 1200px */
+
+@media (max-width: 540px) {
+    .owl-nav {
+        display: none;
+    }
+}
+
+.hs-slider.owl-carousel .owl-nav button {
+    left: 50px;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .hs-slider.owl-carousel .owl-nav button {
